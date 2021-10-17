@@ -14,12 +14,20 @@ import {
 } from "@chakra-ui/react";
 import { RiInformationLine } from "react-icons/ri";
 
+import { randomizeArray } from "../utils/randomArray";
+
+type City = {
+  name: string;
+  country: string;
+  banner: string;
+};
+
 type Continent = {
   content: string;
   banner_image: string;
   countries: number;
   languages: number;
-  cities: any[];
+  cities: City[];
 };
 
 type ContentProps = {
@@ -27,6 +35,10 @@ type ContentProps = {
 };
 
 export function Content({ continent }: ContentProps) {
+  const randomizedCities = randomizeArray<City[]>({ data: continent.cities })
+    .map((city) => city.name)
+    .join(", ");
+
   return (
     <Grid
       templateColumns={["1fr", "1fr", "1fr 1fr", "1.2fr 1fr"]}
@@ -109,7 +121,7 @@ export function Content({ continent }: ContentProps) {
                 <PopoverArrow bg="gray.700" />
                 <PopoverCloseButton />
                 <PopoverBody fontWeight="400" fontSize="lg">
-                  a
+                  {randomizedCities}
                 </PopoverBody>
               </PopoverContent>
             </Popover>
