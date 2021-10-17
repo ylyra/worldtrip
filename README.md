@@ -1,3 +1,3 @@
 <h1 align="center">
-WordlTrip
+WorldTrip
 </h1>
