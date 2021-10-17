@@ -1,0 +1,53 @@
+{
+  "continents": [
+    {
+      "id": 1,
+      "name": "Europe",
+      "slug": "europe",
+      "description": "The oldest continent",
+      "banner": "https://i.imgur.com/xfAocsD.png",
+      "banner_image": "https://i.imgur.com/jVfgBDW.png",
+      "content": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste",
+      "countries": 50,
+      "languages": 60,
+      "cities": [
+        {
+          "id": 1,
+          "name": "London",
+          "country": "United Kingdom",
+          "banner": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Paris",
+          "country": "France",
+          "banner": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=873&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Istanbul",
+          "country": "Turkey",
+          "banner": "https://images.unsplash.com/photo-1589561454226-796a8aa89b05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=867&q=80"
+        },
+        {
+          "id": 4,
+          "name": "Rome",
+          "country": "Italy",
+          "banner": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=796&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Prague",
+          "country": "Czech Republic",
+          "banner": "https://images.unsplash.com/photo-1519677100203-a0e668c92439?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80"
+        },
+        {
+          "id": 6,
+          "name": "Porto",
+          "country": "Portugal",
+          "banner": "https://images.unsplash.com/photo-1581887469434-5dacb946ab56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=435&q=80"
+        }
+      ]
+    }
+  ]
+}
